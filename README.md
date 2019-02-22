@@ -1,6 +1,6 @@
-# 颐和大配餐手机版1.0
+# 一个管理后台的基础模板
 
-> wx
+> template
 
 ## Build Setup
 
