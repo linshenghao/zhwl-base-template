@@ -1,0 +1,89 @@
+/*
+*
+*     主要修改element ui的样式...
+*/
+//  element ui  表单加粗
+
+.el-form-item__label{
+  color: #333333;
+  font-weight: bold;
+}
+
+.el-table--border, .el-table--group{
+  border:1px solid #e5e5e5;
+}
+.el-table th.is-leaf{
+  background:#36648B	;
+  color: white;
+}
+
+.el-table .cell{
+  color: #1f2d3d;
+
+}
+.el-table th>.cell{
+  color: #ffffff;
+  font-size: 14px;
+}
+
+
+//  弹框响应式
+.dialog-resize{
+  .el-dialog{
+    width: 41%;
+  }
+  /* 判断窗口大小 */
+  @media only screen and (max-width:1500px){
+    .el-dialog{
+      width: 50%;
+    }
+  }
+  @media only screen and (max-width:1190px){
+    .el-dialog{
+      width: 60%;
+    }
+  }
+  @media only screen and (max-width:998px){
+    .el-dialog{
+      width: 80%;
+    }
+  }
+}
+
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed{
+  border-right: 1px solid #dddddd;
+}
+.el-table td, .el-table th.is-leaf{
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.el-icon-info:before{
+  color: @primary;
+}
+
+
+.table-box{
+  /*border: 1px solid #eee;*/
+  /*box-shadow: 0 0 3px #eee;*/
+  border: 1px solid #ddd;
+  .table-header{
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #F7F7F7;
+    border: 1px solid #ddd;
+    .label-group{
+      .label-key{
+        margin-top: 6px;
+        font-weight: bold;
+        font-size: 14px;
+      }
+      .label-value{
+
+      }
+    }
+  }
+  .table-footer{
+    border: 1px solid #ddd;
+  }
+}

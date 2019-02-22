@@ -1,0 +1,253 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: white;
+  /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+  -ms-overflow-style:none;
+  /*火狐下隐藏滚动条*/
+  overflow:-moz-scrollbars-none;
+}
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+@success: #3fad7e ;
+@primary:#0086ce;
+@warning:#f18d00;
+@danger:red;
+@theme:#ff6600;
+
+@bg_blue: #0086ce !important;
+@bg_army_green: #3fad7e;
+@bg_cobalt_blue: #5573b6;
+@bg_orange: #f18d00;
+
+@font18:normal normal bold 24px/24px "Adobe 黑体 Std R";
+
+@font16:16px !important;
+
+@ele-dialog-border:8px solid #891317;
+
+.font16(){
+  font-size: 16px !important;
+  color: #333333;
+}
+.font18(){
+  font:normal normal bold 18px/18px "Adobe 黑体 Std R" !important;
+  color: #333333;
+}
+.font24(){
+  font:normal normal bold 24px/24px "Adobe 黑体 Std R" !important;
+  color: #333333;
+}
+
+
+.float_layar{
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+
+//  阿里巴巴适量图库的图标
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+
+* {
+  //box-sizing: border-box;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  border: currentColor;
+  list-style-type: none;
+  text-align: center;
+}
+
+/*字体16px*/
+.fz16 {
+  font-size: 16px !important;
+}
+
+/*字体32px*/
+.fz32 {
+  font-size: 32px !important;
+  color: black;
+  font-weight: bold;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mbT10{
+  margin-top: 10px !important;
+}
+.mbT20{
+  margin-top: 20px !important;
+}
+.mbT30{
+  margin-top: 30px !important;
+}
+.mbL10{
+  margin-left: 10px !important;
+}
+.mbR10{
+  margin-right: 10px !important;
+}
+.mb15{
+  margin-bottom: 15px !important;
+}
+.mb30{
+  margin-bottom: 30px !important;
+}
+
+/*公共去浮动*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+.clearfix{zoom:1}//ie浏览器清除浮动
+
+/*向左浮动*/
+.fl{
+  float: left;
+}
+/*向右浮动*/
+.fr{
+  float: right;
+}
+
+dd{
+  margin: 0;
+  padding: 0;
+  border: currentColor;
+  list-style-type: none;
+}
+.success{
+  color:  #3fad7e
+}
+.primary{
+  color: #0086ce !important;
+}
+.info{
+  color:  #5573b6
+}
+.danger{
+  color: red !important;
+}
+.warning{
+  color:  #f18d00 !important;
+}
+
+.bg_blue {
+  background-color: #0086ce !important;
+}
+
+.bg_army_green{
+  background-color:  #3fad7e
+}
+
+
+.bg_cobalt_blue{
+  background-color:  #5573b6
+}
+.bg_orange{
+  background-color:  #f18d00
+}
+
+
+/*首页的公共背景*/
+.bg_b{
+  background-color: #eff4f7 !important;
+  border-top: solid 1px #ddd;
+}
+.bg_w{
+  background-color: white !important;
+  border-top: solid 1px #ddd;
+}
+.hide{
+  display: none;
+}
+.p10 {
+  padding: 10px!important;
+}
+.p20 {
+  padding: 20px!important;
+}
+
+.primary_input{
+  border: 1px solid #e5e5e5;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.h-title{
+  font-size: 24px;
+  color: #333;
+  line-height: 30px;
+  text-align: center;
+  margin: 50px 0 25px 0;
+}
+/*div父元素设置model-box    子元素内联元素设置  vertical-align:middle;*/
+.model-box{
+  height: 100%;
+}
+.model-box:after{
+  content:'';
+  width:0;
+  height:100%;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+.h-ul,.v-ul{
+  padding: 0;
+  margin: 0;
+}
+.v-ul li{
+  text-decoration: none;
+  list-style: none;
+}
+.h-ul{
+  //border: 1px solid #e6e6e6;
+  border-top: none;
+}
+.h-ul li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.T{
+  text-align: center;
+  font: normal normal bold 24px/24px "Adobe 黑体 Std R";
+  color: #333333;
+  margin-bottom: 30px;
+}
+.content_box{
+  max-width: 1461px;
+  margin: 0 auto;
+  .content{
+    text-align: left;
+  }
+}
+
+.w100{
+  width: 100px !important;
+}
+.w120{
+  width: 120px !important;
+}
+.w150{
+  width: 150px !important;
+}
+.w200{
+  width: 200px !important;
+}
