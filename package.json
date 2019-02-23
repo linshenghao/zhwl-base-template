@@ -1,8 +1,8 @@
 {
-  "name": "yhyl_ndpc_phone1.0",
-  "version": "1.0.0",
-  "description": "颐和大配餐手机版1.0",
-  "author": "linshenghao <1148780544@qq.com>",
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
+  "author": "{{projectAuthor}}",
   "private": true,
   "scripts": {
     "dev:local": "cross-env PATH_TYPE=local webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
